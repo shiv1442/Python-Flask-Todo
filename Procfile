@@ -1,1 +1,0 @@
-web:gubicorn app:app
