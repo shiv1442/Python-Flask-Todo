@@ -1,0 +1,26 @@
+=================================
+pip install virtualenv
+virtualenv env
+Set-ExecutionPolicy unrestricted
+.\env\Scripts\activate.ps1   (ACTIVATE)
+================================
+pip install flask
+================================
+pip install Flask-PyMongo
+===============================
+pip install flask-sqlalchemy  
+
+python
+from app import app, db
+
+with app.app_context():
+ 	db.create_all()
+===============================
+imp linkes
+
+https://flask.palletsprojects.com/en/stable/quickstart/     Flask minimal app
+https://flask-sqlalchemy.readthedocs.io/en/stable/config/  sqlalchemy db configuration
+or
+https://flask-pymongo.readthedocs.io/en/latest/    Flask-PyMongo db confguretion
+
+=================================================
